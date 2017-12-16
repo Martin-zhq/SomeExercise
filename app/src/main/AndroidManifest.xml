@@ -16,18 +16,16 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".recyclerviewexercise.ShowDateTime"
-            android:label="@string/date_and_time">
+            android:label="@string/date_and_time"></activity>
+        <activity android:name=".transmitdata.TransmitDataActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".transmitdata.TransmitDataActivity" />
-        <activity
-            android:name=".LoginActivity"
-            android:label="@string/title_activity_login" />
-        <activity android:name=".transmitdata.MyActivity"></activity>
+        <activity android:name=".transmitdata.MyActivity1" />
+        <activity android:name=".transmitdata.MyActivity2"></activity>
     </application>
 
 </manifest>

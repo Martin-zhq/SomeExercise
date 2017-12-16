@@ -30,7 +30,17 @@ public class TransmitDataActivity extends AppCompatActivity implements View.OnCl
         Intent intent = null;
         switch (v.getId()) {
             case R.id.btn_intent:
-
+                intent = new Intent(this, MyActivity1.class);
+                //保存String类型的数据
+                intent.putExtra("intent_string", "通过intent传递字符串");
+                //integer类型
+                intent.putExtra("intent_integer", 666);
+                Data data = new Data();
+                data.id = 1;
+                data.name = "somebody";
+                //保存可序列化的对象
+                intent.putExtra("intent_data", data);
+                startActivity(intent);
                 break;
             case R.id.btn_static_data:
 
