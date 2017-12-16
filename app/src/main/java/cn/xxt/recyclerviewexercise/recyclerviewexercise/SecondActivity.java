@@ -1,4 +1,4 @@
-package cn.xxt.recyclerviewexercise;
+package cn.xxt.recyclerviewexercise.recyclerviewexercise;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -8,14 +8,16 @@ import android.support.v7.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
+import cn.xxt.recyclerviewexercise.R;
+
 /**
  * @author zhq
  */
-public class SecondActivity extends AppCompatActivity implements SecondAdapter.SecondListener{
+public class SecondActivity extends AppCompatActivity implements SecondAdapter.SecondListener {
 
     private RecyclerView recyclerView;
 
-    private List<Person> personList;
+    private List<MainActivity.Person> personList;
 
     private SecondAdapter secondAdapter;
 
@@ -49,7 +51,7 @@ public class SecondActivity extends AppCompatActivity implements SecondAdapter.S
     private void initData() {
         personList = new ArrayList<>();
         for (int i = 0; i < 25; i++) {
-            Person person = new Person();
+            MainActivity.Person person = new MainActivity.Person();
             person.setImageId(R.drawable.ic_launcher_background);
             person.setName("鸣人" + i);
             person.setSignatuer("影分身" + i);
@@ -62,7 +64,7 @@ public class SecondActivity extends AppCompatActivity implements SecondAdapter.S
      * @param position
      */
     private void addPerson(int position) {
-        Person person = new Person();
+        MainActivity.Person person = new MainActivity.Person();
         person.setImageId(R.drawable.ic_launcher_foreground);
         person.setName("名字");
         person.setSignatuer("签名签名签名签名签名");

@@ -1,4 +1,4 @@
-package cn.xxt.recyclerviewexercise;
+package cn.xxt.recyclerviewexercise.recyclerviewexercise;
 
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -8,6 +8,8 @@ import android.widget.Button;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+import cn.xxt.recyclerviewexercise.R;
 
 /**
  * @author zhq

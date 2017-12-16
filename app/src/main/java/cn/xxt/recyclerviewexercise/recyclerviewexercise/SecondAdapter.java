@@ -1,4 +1,4 @@
-package cn.xxt.recyclerviewexercise;
+package cn.xxt.recyclerviewexercise.recyclerviewexercise;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -13,17 +13,19 @@ import android.widget.Toast;
 
 import java.util.List;
 
+import cn.xxt.recyclerviewexercise.R;
+
 /**
  * Created by zhq on 2017/12/15.
  */
 
 public class SecondAdapter extends RecyclerView.Adapter<SecondAdapter.ViewHolder> {
 
-    private List<Person> personList;
+    private List<MainActivity.Person> personList;
 
     private SecondListener secondListener = null;
 
-    public SecondAdapter(List<Person> list) {
+    public SecondAdapter(List<MainActivity.Person> list) {
         personList = list;
     }
 
@@ -38,7 +40,7 @@ public class SecondAdapter extends RecyclerView.Adapter<SecondAdapter.ViewHolder
 
     @Override
     public void onBindViewHolder(ViewHolder holder, final int position) {
-        Person person = personList.get(position);
+        MainActivity.Person person = personList.get(position);
         holder.ivHead.setImageResource(person.getImageId());
         holder.tvName.setText(person.getName());
         holder.tvSignature.setText(person.getSignatuer());

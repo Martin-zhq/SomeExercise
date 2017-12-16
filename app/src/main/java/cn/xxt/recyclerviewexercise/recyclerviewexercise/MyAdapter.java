@@ -1,4 +1,4 @@
-package cn.xxt.recyclerviewexercise;
+package cn.xxt.recyclerviewexercise.recyclerviewexercise;
 
 
 import android.support.v7.widget.RecyclerView;
@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import java.util.List;
+
+import cn.xxt.recyclerviewexercise.R;
 
 /**
  * Created by zhq on 2017/12/15.

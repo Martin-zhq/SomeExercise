@@ -1,4 +1,4 @@
-package cn.xxt.recyclerviewexercise;
+package cn.xxt.recyclerviewexercise.recyclerviewexercise;
 
 /**
  * Created by zhq on 2017/12/15.
