@@ -8,17 +8,14 @@
     <string name="clipboard_data">使用剪切板传值</string>
     <string name="application_data">使用全局对象传值</string>
     <string name="title_activity_login">Sign in</string>
+    <string name="action_call">直接拨号</string>
+    <string name="action_dial">将电话号传入拨号程序</string>
+    <string name="action_touch_dialer">调用拨号程序</string>
+    <string name="action_view">浏览网页</string>
+    <string name="action_list_contacts">查看联系人</string>
+    <string name="settings">显示系统设置界面</string>
+    <string name="wifi_settings">显示wifi设置界面</string>
+    <string name="audio">启动处理音频的程序</string>
+    <string name="home">回到home窗口（相当于按home键）</string>
 
-    <!-- Strings related to login -->
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password (optional)</string>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="error_invalid_email">This email address is invalid</string>
-    <string name="error_invalid_password">This password is too short</string>
-    <string name="error_incorrect_password">This password is incorrect</string>
-    <string name="error_field_required">This field is required</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
-    </string>
 </resources>
