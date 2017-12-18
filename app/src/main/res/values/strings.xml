@@ -4,12 +4,12 @@
     <string name="date_and_time">展示时间日期</string>
     <string name="show_date">显示当前日期</string>
     <string name="show_time">显示当前时间</string>
-   <!--transmit_data,start_activity_for_result -->
+    <!--transmit_data,start_activity_for_result -->
     <string name="intent_data">使用Intent传递数据</string>
     <string name="static_data">使用静态变量传值</string>
     <string name="clipboard_data">使用剪切板传值</string>
     <string name="application_data">使用全局对象传值</string>
-   <!--start_system_activity-->
+    <!--start_system_activity-->
     <string name="action_call">直接拨号</string>
     <string name="action_dial">将电话号传入拨号程序</string>
     <string name="action_touch_dialer">调用拨号程序</string>
@@ -26,5 +26,12 @@
     <string name="web_set_class">浏览网页：setClass</string>
     <string name="web_set_component_name">浏览网页：setComponentName</string>
     <string name="calculator">显示计算器</string>
+    <!--FilterConsumer-->
+    <string name="filter1">Filter1</string>
+    <string name="filter2">Filter2</string>
+    <string name="filter3">Filter3</string>
+    <string name="filter4">Filter4</string>
+    <string name="filter5">Filter5</string>
+    <string name="filter6">Filter6</string>
 
 </resources>

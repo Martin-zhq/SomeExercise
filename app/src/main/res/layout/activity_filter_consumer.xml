@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/filter1"
+        android:textSize="20sp"
+        android:onClick="clickBtnFilter1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/filter2"
+        android:textSize="20sp"
+        android:onClick="clickBtnFilter2" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/filter3"
+        android:textSize="20sp"
+        android:onClick="clickBtnFilter3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/filter4"
+        android:textSize="20sp"
+        android:onClick="clickBtnFilter4" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/filter5"
+        android:textSize="20sp"
+        android:onClick="clickBtnFilter5" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/filter6"
+        android:textSize="20sp"
+        android:onClick="clickBtnFilter6" />
+</LinearLayout>

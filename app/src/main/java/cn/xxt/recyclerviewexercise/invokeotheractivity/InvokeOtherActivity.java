@@ -84,10 +84,12 @@ public class InvokeOtherActivity extends AppCompatActivity {
 
     public void clickBtnCalculator(View view) {
         //通过指定packageName和className来跳转到系统计算器   找不到类。。
-        Intent intent = new Intent();
-        intent.setClassName("com.android.calculator2", "com.android.calculator2.Calculator");
+//        Intent intent = new Intent();
+//        intent.setClassName("com.android.calculator2", "com.android.calculator2.Calculator");
+//        startActivity(intent);
+        Intent intent = new Intent(Intent.ACTION_MAIN);
+        intent.addCategory(Intent.CATEGORY_APP_CALCULATOR);
         startActivity(intent);
     }
-
 
 }
