@@ -25,11 +25,13 @@
         <activity android:name=".transmitdata.MyActivity3" />
         <activity android:name=".transmitdata.MyActivity4" />
         <activity android:name=".startactivityforresult.ResultActivity" />
-        <activity android:name=".startactivityforresult.RequestActivity">
-        </activity>
+        <activity android:name=".startactivityforresult.RequestActivity"></activity>
         <activity android:name=".systemactivity.SystemActivity">
+        </activity>
+        <activity android:name=".invokeotheractivity.InvokeOtherActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
