@@ -34,4 +34,15 @@
     <string name="filter5">Filter5</string>
     <string name="filter6">Filter6</string>
 
+    <!--ScreenOrientation-->
+    <string name="four_screen_orientation">4个屏幕旋转方向</string>
+    <string name="landscape">横屏</string>
+    <string name="portrait">竖屏</string>
+
+    <!--ConfigChanges-->
+    <string name="setting_var">设置变量值</string>
+
+    <!--ProcessActivity-->
+    <string name="create_new_process">创建新进程</string>
+    <string name="use_old_process">使用当前应用程序的进程</string>
 </resources>

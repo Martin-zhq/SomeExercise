@@ -27,16 +27,26 @@
         <activity android:name=".startactivityforresult.ResultActivity" />
         <activity android:name=".startactivityforresult.RequestActivity" />
         <activity android:name=".systemactivity.SystemActivity" />
-        <activity android:name=".invokeotheractivity.InvokeOtherActivity" >
+        <activity android:name=".invokeotheractivity.InvokeOtherActivity" />
+        <activity android:name=".filterconsumer.FilterConsumerActivity" />
+        <activity
+            android:name=".screenorientation.ScreenOrientationActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".configchanges.ConfigChangesActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="fullSensor" />
+        <activity android:name=".process.ProcessActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".filterconsumer.FilterConsumerActivity" >
-
-        </activity>
+        <activity
+            android:name=".process.AActivity"
+            android:process=":new_process" />
+        <activity android:name=".process.BActivity"></activity>
     </application>
 
 </manifest>
