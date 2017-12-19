@@ -36,20 +36,28 @@
             android:name=".configchanges.ConfigChangesActivity"
             android:configChanges="orientation|screenSize"
             android:screenOrientation="fullSensor" />
-        <activity android:name=".process.ProcessActivity">
-        </activity>
+        <activity android:name=".process.ProcessActivity" />
         <activity
             android:name=".process.AActivity"
             android:process=":new_process" />
         <activity android:name=".process.BActivity" />
-        <activity android:name=".saveinstance.SaveStateActivity"
-            android:screenOrientation="fullSensor">
+        <activity
+            android:name=".saveinstance.SaveStateActivity"
+            android:screenOrientation="fullSensor" />
+        <activity android:name=".launchmode.LaunchModeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".launchmode.StandardActivity" />
+        <activity
+            android:name=".launchmode.SingleTopActivity"
+            android:launchMode="singleTop" />
+        <activity android:name=".launchmode.Test1Activity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".launchmode.Test2Activity"></activity>
     </application>
 
 </manifest>

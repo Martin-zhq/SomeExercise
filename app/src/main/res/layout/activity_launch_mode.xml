@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/standard"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:onClick="clickBtnStandard"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/singleTop"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:onClick="clickBtnSingleTop"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/test_activity"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:onClick="clickBtnTestActivity"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/single"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:onClick="clickBtnSingle"/>
+
+</LinearLayout>

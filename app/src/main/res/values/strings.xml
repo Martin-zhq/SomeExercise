@@ -49,4 +49,12 @@
     <!--SaveState-->
     <string name="set_value">设置value字段的值</string>
     <string name="output_value">输出value的值</string>
+    <!--LaunchMode-->
+    <string name="standard">standard</string>
+    <string name="singleTop">singleTop</string>
+    <string name="test_activity">TestActivity</string>
+    <string name="single">single</string>
+    <string name="test1">跳转到Test1Activity</string>
+    <string name="test2">跳转到Test2Activity</string>
+
 </resources>
