@@ -45,4 +45,8 @@
     <!--ProcessActivity-->
     <string name="create_new_process">创建新进程</string>
     <string name="use_old_process">使用当前应用程序的进程</string>
+
+    <!--SaveState-->
+    <string name="set_value">设置value字段的值</string>
+    <string name="output_value">输出value的值</string>
 </resources>
