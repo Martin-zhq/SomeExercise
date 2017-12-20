@@ -61,7 +61,7 @@
         <activity android:name=".layout.linearlayout.LinearLayoutTest2Activity" />
         <activity android:name=".layout.framelayout.FrameLayoutTest1Activity" />
         <activity android:name=".layout.relativelayout.RelativeLayoutTestActivity" />
-        <activity android:name=".layout.layoutinflator.LoadLayoutActivity"></activity>
+        <activity android:name=".layout.layoutinflator.LoadLayoutActivity" />
         <activity android:name=".menuexercise.MenuItemClickActivity" />
         <activity android:name=".menuexercise.DynamicAddMenuItemActivity" />
         <activity android:name=".menuexercise.SubMenuActivity" />
@@ -72,7 +72,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".menuexercise.CustomMenuActivity"></activity>
+        <activity android:name=".menuexercise.CustomMenuActivity" />
+        <activity android:name=".menuexercise.UcMenuActivity"></activity>
     </application>
 
 </manifest>
