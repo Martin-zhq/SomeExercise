@@ -64,4 +64,14 @@
     <string name="close_all_my_activity">关闭所有MyActivity活动</string>
     <!--AffinityActivity-->
     <string name="task_affinity">taskAffinity</string>
+    <!--LinearLayout-->
+    <string name="btn1">按钮1</string>
+    <string name="btn2">按钮2</string>
+    <string name="btn3">按钮3</string>
+    <string name="btn_left_top">左上按钮</string>
+    <string name="btn_right_top">右上按钮</string>
+    <string name="btn_left_bottom">左下按钮</string>
+    <string name="btn_right_bottom">右下按钮</string>
+    <string name="btn_center">中心按钮</string>
+
 </resources>

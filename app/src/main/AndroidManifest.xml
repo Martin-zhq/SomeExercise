@@ -53,11 +53,17 @@
             android:name=".launchmode.Test1Activity"
             android:launchMode="singleInstance" />
         <activity android:name=".launchmode.Test2Activity" />
-        <activity android:name=".intentflag.IntentFlagActivity">
+        <activity android:name=".intentflag.IntentFlagActivity" />
+        <activity android:name=".intentflag.MyActivity" />
+        <activity android:name=".affinity.AffinityActivity" />
+        <activity android:name=".layout.framelayout.FameLayoutTestActivity" />
+        <activity android:name=".layout.linearlayout.LinearLayoutTestActivity">
 
         </activity>
-        <activity android:name=".intentflag.MyActivity" />
-        <activity android:name=".affinity.AffinityActivity">
+        <activity android:name=".layout.linearlayout.LinearLayoutTest2Activity" />
+        <activity android:name=".layout.framelayout.FrameLayoutTest1Activity" />
+        <activity android:name=".layout.relativelayout.RelativeLayoutTestActivity" />
+        <activity android:name=".layout.layoutinflator.LoadLayoutActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
