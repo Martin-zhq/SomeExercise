@@ -44,7 +44,7 @@
         <activity
             android:name=".saveinstance.SaveStateActivity"
             android:screenOrientation="fullSensor" />
-        <activity android:name=".launchmode.LaunchModeActivity"></activity>
+        <activity android:name=".launchmode.LaunchModeActivity" />
         <activity android:name=".launchmode.StandardActivity" />
         <activity
             android:name=".launchmode.SingleTopActivity"
@@ -54,13 +54,16 @@
             android:launchMode="singleInstance" />
         <activity android:name=".launchmode.Test2Activity" />
         <activity android:name=".intentflag.IntentFlagActivity">
+
+        </activity>
+        <activity android:name=".intentflag.MyActivity" />
+        <activity android:name=".affinity.AffinityActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".intentflag.MyActivity"></activity>
     </application>
 
 </manifest>

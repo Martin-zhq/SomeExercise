@@ -62,5 +62,6 @@
     <string name="show_other_activity_standard">显示其他程序的活动（standard）</string>
     <string name="show_other_activity_single_task">显示其他程序的活动（singleTask）</string>
     <string name="close_all_my_activity">关闭所有MyActivity活动</string>
-
+    <!--AffinityActivity-->
+    <string name="task_affinity">taskAffinity</string>
 </resources>
