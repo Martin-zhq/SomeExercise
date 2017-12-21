@@ -5,6 +5,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import cn.xxt.recyclerviewexercise.R;
 
 /**
  *
@@ -24,7 +28,7 @@ public class GridAdapter extends BaseAdapter {
 
     @Override
     public int getCount() {
-        return 0;
+        return UcMenuConst.GRID_ITEM_ICON_ID_LIST.length;
     }
 
     @Override
@@ -39,6 +43,15 @@ public class GridAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        return null;
+        //返回item布局
+        if (convertView == null) {
+            convertView = mLayoutInflater.inflate(R.layout.grid_item, null);
+        }
+        ImageView ivGridItem = convertView.findViewById(R.id.iv_item_icon);
+        TextView tvGridItem = convertView.findViewById(R.id.tv_item_text);
+        ivGridItem.setImageResource(UcMenuConst.GRID_ITEM_ICON_ID_LIST[position]);
+        tvGridItem.setText(UcMenuConst.GRID_ITEM_TEXT_LIST[position]);
+
+        return convertView;
     }
 }

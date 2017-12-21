@@ -6,7 +6,9 @@ import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.GridView;
 import android.widget.PopupWindow;
 import android.widget.Toast;
 
@@ -24,6 +26,21 @@ public class UcMenuActivity extends AppCompatActivity implements View.OnKeyListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_uc_menu);
+
+        //创建在弹出窗口中显示的GridView对象
+        GridView popGridView = (GridView)getLayoutInflater().inflate(R.layout.pop_window, null);
+        //加载adapter
+        GridAdapter adapter = new GridAdapter(this);
+        popGridView.setAdapter(adapter);
+        popGridView.setOnKeyListener(this);
+        popGridView.setOnItemClickListener(this);
+
+        //创建用于显示菜单的PopupWindow对象。
+        popupWindow = new PopupWindow(popGridView, ViewGroup.LayoutParams.MATCH_PARENT
+                , ViewGroup.LayoutParams.WRAP_CONTENT);
+
+        //使PopupWindow可以获得焦点，以便通过轨迹球或上下左右键来控制菜单项。。
+        popupWindow.setFocusable(true);
     }
 
     @Override
