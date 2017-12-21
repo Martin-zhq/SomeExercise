@@ -14,7 +14,7 @@ import cn.xxt.recyclerviewexercise.R;
  * @author zhq
  * @date 2017/12/21 下午5:13
  */
-public class TranslateAnim extends AppCompatActivity implements Animation.AnimationListener{
+public class TranslateAnimActivity extends AppCompatActivity implements Animation.AnimationListener{
 
     private EditText etMoving;
 

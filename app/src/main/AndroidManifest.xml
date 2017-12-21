@@ -70,10 +70,13 @@
         <activity android:name=".menuexercise.UcMenuActivity" />
         <activity android:name=".resourcees.EnumResourceActivity" />
         <activity android:name=".resourcees.LevelListActivity" />
-        <activity android:name=".resourcees.CrossFadeActivity"></activity>
-        <activity android:name=".resourcees.PropertyAnimActivity">
+        <activity android:name=".resourcees.CrossFadeActivity" />
+        <activity android:name=".resourcees.PropertyAnimActivity" />
+        <activity android:name=".resourcees.TranslateAnimActivity"></activity>
+        <activity android:name=".resourcees.ScaleActivity">
+
         </activity>
-        <activity android:name=".resourcees.TranslateAnim">
+        <activity android:name=".resourcees.RotateActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
