@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et_moving"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:hint="@string/et_moving"
+        android:textColor="@android:color/primary_text_dark"/>
+
+    <ImageView
+        android:id="@+id/iv_translate_dragon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/dragon"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/btn_begin_anim"
+        android:textSize="20sp"
+        android:onClick="clickBtnBeginAnim"/>
+</RelativeLayout>

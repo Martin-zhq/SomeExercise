@@ -65,15 +65,21 @@
         <activity android:name=".menuexercise.MenuItemClickActivity" />
         <activity android:name=".menuexercise.DynamicAddMenuItemActivity" />
         <activity android:name=".menuexercise.SubMenuActivity" />
-        <activity android:name=".menuexercise.ContextMenuActivity">
+        <activity android:name=".menuexercise.ContextMenuActivity" />
+        <activity android:name=".menuexercise.CustomMenuActivity" />
+        <activity android:name=".menuexercise.UcMenuActivity" />
+        <activity android:name=".resourcees.EnumResourceActivity" />
+        <activity android:name=".resourcees.LevelListActivity" />
+        <activity android:name=".resourcees.CrossFadeActivity"></activity>
+        <activity android:name=".resourcees.PropertyAnimActivity">
+        </activity>
+        <activity android:name=".resourcees.TranslateAnim">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".menuexercise.CustomMenuActivity" />
-        <activity android:name=".menuexercise.UcMenuActivity"></activity>
     </application>
 
 </manifest>

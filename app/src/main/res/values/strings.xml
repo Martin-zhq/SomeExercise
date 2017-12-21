@@ -80,4 +80,14 @@
     <string name="home_page">首页</string>
     <string name="my">我的</string>
     <string name="more">更多</string>
+    <!--Resoureces-->
+    <string name="btn_get_resource_id">根据资源名称获取资源id</string>
+    <string name="btn_flower">花</string>
+    <string name="btn_leaf">叶子</string>
+    <string name="btn_meizi_to_dragon">妹子变龙</string>
+    <string name="btn_dragon_to_meizi">龙变妹子</string>
+    <string name="btn_move">move me</string>
+    <string name="btn_move_me">我动了啊</string>
+    <string name="et_moving">移动的我</string>
+    <string name="btn_begin_anim">开始动画</string>
 </resources>
