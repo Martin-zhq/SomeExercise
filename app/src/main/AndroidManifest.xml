@@ -72,11 +72,12 @@
         <activity android:name=".resourcees.LevelListActivity" />
         <activity android:name=".resourcees.CrossFadeActivity" />
         <activity android:name=".resourcees.PropertyAnimActivity" />
-        <activity android:name=".resourcees.TranslateAnimActivity"></activity>
-        <activity android:name=".resourcees.ScaleActivity">
+        <activity android:name=".resourcees.TranslateAnimActivity" />
+        <activity android:name=".resourcees.ScaleActivity"></activity>
+        <activity android:name=".resourcees.RotateActivity">
 
         </activity>
-        <activity android:name=".resourcees.RotateActivity">
+        <activity android:name=".resourcees.ShakeInterpolatorActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

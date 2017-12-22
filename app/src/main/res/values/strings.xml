@@ -90,4 +90,5 @@
     <string name="btn_move_me">我动了啊</string>
     <string name="et_moving">移动的我</string>
     <string name="btn_begin_anim">开始动画</string>
+    <string name="btn_shake">振动</string>
 </resources>
