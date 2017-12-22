@@ -73,11 +73,18 @@
         <activity android:name=".resourcees.CrossFadeActivity" />
         <activity android:name=".resourcees.PropertyAnimActivity" />
         <activity android:name=".resourcees.TranslateAnimActivity" />
-        <activity android:name=".resourcees.ScaleActivity"></activity>
-        <activity android:name=".resourcees.RotateActivity">
+        <activity android:name=".resourcees.ScaleActivity" />
+        <activity android:name=".resourcees.RotateActivity" />
+        <activity android:name=".resourcees.ShakeInterpolatorActivity" />
+        <activity android:name=".widgetexercise.TextViewExerciseActivity" />
+        <activity android:name=".widgetexercise.TextViewImgActivity" />
+        <activity android:name=".widgetexercise.ClickToJumpActivity" />
+        <activity android:name=".widgetexercise.TextBackGroundActivity" />
+        <activity android:name=".widgetexercise.EditFaceActivity"></activity>
+        <activity android:name=".widgetexercise.EditSpecialChrarcterActivity">
 
         </activity>
-        <activity android:name=".resourcees.ShakeInterpolatorActivity">
+        <activity android:name=".widgetexercise.AutoTextActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
