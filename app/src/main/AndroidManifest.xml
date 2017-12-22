@@ -80,11 +80,16 @@
         <activity android:name=".widgetexercise.TextViewImgActivity" />
         <activity android:name=".widgetexercise.ClickToJumpActivity" />
         <activity android:name=".widgetexercise.TextBackGroundActivity" />
-        <activity android:name=".widgetexercise.EditFaceActivity"></activity>
-        <activity android:name=".widgetexercise.EditSpecialChrarcterActivity">
+        <activity android:name=".widgetexercise.EditFaceActivity" />
+        <activity android:name=".widgetexercise.EditSpecialChrarcterActivity" />
+        <activity android:name=".widgetexercise.AutoTextActivity" />
+        <activity android:name=".widgetexercise.ButtonExerciseActivity" />
+        <activity android:name=".widgetexercise.ImageTextButtonActivity"></activity>
+        <activity android:name=".widgetexercise.ImageButtonActivity" />
+        <activity android:name=".widgetexercise.RadioButtonActivity">
 
         </activity>
-        <activity android:name=".widgetexercise.AutoTextActivity">
+        <activity android:name=".widgetexercise.ToggleButtonActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
