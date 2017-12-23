@@ -84,12 +84,13 @@
         <activity android:name=".widgetexercise.EditSpecialChrarcterActivity" />
         <activity android:name=".widgetexercise.AutoTextActivity" />
         <activity android:name=".widgetexercise.ButtonExerciseActivity" />
-        <activity android:name=".widgetexercise.ImageTextButtonActivity"></activity>
+        <activity android:name=".widgetexercise.ImageTextButtonActivity" />
         <activity android:name=".widgetexercise.ImageButtonActivity" />
-        <activity android:name=".widgetexercise.RadioButtonActivity">
+        <activity android:name=".widgetexercise.RadioButtonActivity"></activity>
+        <activity android:name=".widgetexercise.ToggleButtonActivity">
 
         </activity>
-        <activity android:name=".widgetexercise.ToggleButtonActivity">
+        <activity android:name=".widgetexercise.CheckboxExerciseActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
