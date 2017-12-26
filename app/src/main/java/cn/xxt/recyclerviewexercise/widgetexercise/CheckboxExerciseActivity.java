@@ -3,10 +3,13 @@ package cn.xxt.recyclerviewexercise.widgetexercise;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.LinearLayout;
+
+import com.google.gson.Gson;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -37,6 +40,14 @@ public class CheckboxExerciseActivity extends AppCompatActivity implements View.
         setContentView(linearLayout);
         btnConfirm = findViewById(R.id.btn_confirm);
         btnConfirm.setOnClickListener(this);
+
+        //Gson 测试
+        Gson gson = new Gson();
+        Model model = new Model();
+        model.setI(1);
+        model.setStr("字符串");
+        String result = gson.toJson(model);
+        Log.d("test", result);
     }
 
     @Override
