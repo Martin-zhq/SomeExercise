@@ -86,11 +86,18 @@
         <activity android:name=".widgetexercise.ButtonExerciseActivity" />
         <activity android:name=".widgetexercise.ImageTextButtonActivity" />
         <activity android:name=".widgetexercise.ImageButtonActivity" />
-        <activity android:name=".widgetexercise.RadioButtonActivity"></activity>
-        <activity android:name=".widgetexercise.ToggleButtonActivity">
+        <activity android:name=".widgetexercise.RadioButtonActivity" />
+        <activity android:name=".widgetexercise.ToggleButtonActivity" />
+        <activity android:name=".widgetexercise.CheckboxExerciseActivity" />
+        <activity android:name=".widgetexercise.ListViewTestActivity" />
+        <activity android:name=".widgetexercise.ChoiceListViewActivity" />
+        <activity android:name=".widgetexercise.DynamicListViewActivity" />
+        <activity android:name=".widgetexercise.ColorListViewActivity" />
+        <activity android:name=".widgetexercise.ExpandableListViewActivity"></activity>
+        <activity android:name=".widgetexercise.SpinnerActivity">
 
         </activity>
-        <activity android:name=".widgetexercise.CheckboxExerciseActivity">
+        <activity android:name=".widgetexercise.GridViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

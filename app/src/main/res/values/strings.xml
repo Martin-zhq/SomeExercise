@@ -94,4 +94,15 @@
     <!--控件练习-->
     <string name="btn_insert_faces">随机插入表情</string>
     <string name="btn_confirm">确认</string>
+    <string name="checked_textView">checkedTextView</string>
+    <string name="radio_button">RadioButton</string>
+    <string name="checkbox">checkBox</string>
+    <string name="add_text">添加文本</string>
+    <string name="add_image">添加图像</string>
+    <string name="delete_item">删除当前项</string>
+    <string name="random_change_item">随机修改当前项</string>
+    <string name="clear_item">清空</string>
+    <string name="default_color">默认颜色</string>
+    <string name="green">绿色</string>
+    <string name="yellow">黄色</string>
 </resources>
