@@ -18,4 +18,37 @@
         android:text="三个按钮的对话框"
         android:onClick="clickBtnThreeButton"/>
 
+    <Button
+        android:id="@+id/btn_simple_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="简单列表对话框"
+        android:onClick="clickBtnSimpleList"/>
+
+    <Button
+        android:id="@+id/btn_single_choice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单选列表对话框"
+        android:onClick="clickBtnSingleChoice"/>
+
+    <Button
+        android:id="@+id/btn_multi_choice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多选列表对话框"
+        android:onClick="clickBtnMultiChoice" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置水平进度对话框"
+        android:onClick="clickBtnHorizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置垂直进度对话框"
+        android:onClick="clickBtnVertical"/>
+
 </LinearLayout>
