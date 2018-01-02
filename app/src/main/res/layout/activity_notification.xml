@@ -42,6 +42,20 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="永久的notification"
+        android:textSize="20sp"
+        android:onClick="clickBtnPermanentNotify" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="自定义的notification"
+        android:onClick="clickBtnCustomNotify"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="清除所有的notification"
         android:textSize="20sp"
         android:onClick="clickBtnClearAllNotify"/>
