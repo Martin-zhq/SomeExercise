@@ -51,4 +51,10 @@
         android:text="设置垂直进度对话框"
         android:onClick="clickBtnVertical"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录对话框"
+        android:onClick="clickBtnLoginDialog"/>
+
 </LinearLayout>

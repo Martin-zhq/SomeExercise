@@ -95,18 +95,18 @@
         <activity android:name=".widgetexercise.ColorListViewActivity" />
         <activity android:name=".widgetexercise.ExpandableListViewActivity" />
         <activity android:name=".widgetexercise.SpinnerActivity" />
-        <activity android:name=".widgetexercise.GridViewActivity">
-
-        </activity>
+        <activity android:name=".widgetexercise.GridViewActivity" />
         <activity android:name=".widgetexercise.TabHostActivity" />
         <activity android:name=".widgetexercise.ViewStubActivity" />
-        <activity android:name=".widgetexercise.DialogActivity">
+        <activity android:name=".widgetexercise.DialogActivity"></activity>
+        <activity android:name=".widgetexercise.ToastTestActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".widgetexercise.NotificationActivity"></activity>
     </application>
 
 </manifest>

@@ -8,7 +8,9 @@ import android.os.Message;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.Random;
 
@@ -72,7 +74,7 @@ public class DialogActivity extends AppCompatActivity {
                                 new AlertDialog.Builder(DialogActivity.this).setMessage("文件已覆盖")
                                         .create().show();
                             }
-                        }).setNegativeButton("忽略",
+                        }).setNeutralButton("忽略",
                 new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
@@ -167,6 +169,22 @@ public class DialogActivity extends AppCompatActivity {
 
     public void clickBtnVertical(View view) {
         showProgressDialog(ProgressDialog.STYLE_SPINNER);
+    }
+
+    public void clickBtnLoginDialog(View view) {
+        LinearLayout loginLayout = (LinearLayout)getLayoutInflater().inflate(R.layout.login_dialog_layout, null);
+        new AlertDialog.Builder(this).setIcon(R.drawable.face3).setTitle("用户登录").setView(loginLayout)
+                .setPositiveButton("登录", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        Toast.makeText(DialogActivity.this, "登录成功", Toast.LENGTH_SHORT).show();
+                    }
+                }).setNegativeButton("取消", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                Toast.makeText(DialogActivity.this, "取消登录", Toast.LENGTH_SHORT).show();
+            }
+        }).show();
     }
 
     /** 显示进度对话框 */
