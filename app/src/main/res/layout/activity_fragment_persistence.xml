@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/fragment_container">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置Fragment中的字段"
+        android:onClick="clickBtnSetDataInFragment"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读取Fragment中的字段值"
+        android:onClick="clickBtnReadDataFromFragment"/>
+
+    <fragment
+        android:id="@+id/fragment_persistence"
+        android:name="cn.xxt.recyclerviewexercise.fragmentexercise.MyFragment4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>

@@ -104,13 +104,18 @@
         <activity android:name=".dragview.FirstDragDropActivity" />
         <activity android:name=".fragmentexercise.FirstFragmentActivity" />
         <activity android:name=".fragmentexercise.DetailActivity" />
-        <activity android:name=".fragmentexercise.FragmentCycleActivity"></activity>
-        <activity android:name=".fragmentexercise.RuntimeCreateFragmentActivity">
+        <activity android:name=".fragmentexercise.FragmentCycleActivity" />
+        <activity android:name=".fragmentexercise.RuntimeCreateFragmentActivity" />
+        <activity android:name=".fragmentexercise.FragmentArgumentActivity"></activity>
+        <activity android:name=".fragmentexercise.FragmentCallbackActivity">
 
         </activity>
-        <activity android:name=".fragmentexercise.FragmentArgumentActivity">
+        <activity android:name=".fragmentexercise.FragmentPersistenceActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="fullSensor" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
