@@ -106,13 +106,15 @@
         <activity android:name=".fragmentexercise.DetailActivity" />
         <activity android:name=".fragmentexercise.FragmentCycleActivity" />
         <activity android:name=".fragmentexercise.RuntimeCreateFragmentActivity" />
-        <activity android:name=".fragmentexercise.FragmentArgumentActivity"></activity>
-        <activity android:name=".fragmentexercise.FragmentCallbackActivity">
+        <activity android:name=".fragmentexercise.FragmentArgumentActivity" />
+        <activity android:name=".fragmentexercise.FragmentCallbackActivity"></activity>
+        <activity
+            android:name=".fragmentexercise.FragmentPersistenceActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="fullSensor">
 
         </activity>
-        <activity android:name=".fragmentexercise.FragmentPersistenceActivity"
-            android:configChanges="orientation|screenSize"
-            android:screenOrientation="fullSensor" >
+        <activity android:name=".popupwindow.PopupWindowActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
