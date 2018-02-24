@@ -107,14 +107,14 @@
         <activity android:name=".fragmentexercise.FragmentCycleActivity" />
         <activity android:name=".fragmentexercise.RuntimeCreateFragmentActivity" />
         <activity android:name=".fragmentexercise.FragmentArgumentActivity" />
-        <activity android:name=".fragmentexercise.FragmentCallbackActivity"></activity>
+        <activity android:name=".fragmentexercise.FragmentCallbackActivity" />
         <activity
             android:name=".fragmentexercise.FragmentPersistenceActivity"
             android:configChanges="orientation|screenSize"
-            android:screenOrientation="fullSensor">
+            android:screenOrientation="fullSensor"></activity>
+        <activity android:name=".popupwindow.PopupWindowActivity"/>
 
-        </activity>
-        <activity android:name=".popupwindow.PopupWindowActivity">
+        <activity android:name=".switchtest.SwitchTestActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.xxt.recyclerviewexercise.switchtest.SwitchTestActivity">
+
+    <Switch
+        android:id="@+id/s_v"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:switchMinWidth="20dp"
+        android:thumb="@drawable/thumb"
+        android:track="@drawable/track"
+        android:background="@android:color/white"
+        android:checked="false" />
+    <Switch
+        android:id="@+id/s_yuansheng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/s_v"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_green_light"/>
+
+</RelativeLayout>
