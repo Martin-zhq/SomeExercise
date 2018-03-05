@@ -26,13 +26,25 @@ public class PopupWindowActivity extends AppCompatActivity implements CommonPopu
         if (popupWindow != null && popupWindow.isShowing()) {
             return;
         }
+//        popupWindow = new CommonPopupWindow.Builder(this)
+//                .setView(R.layout.up_down_item)
+//                .setWidthAndHeight(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT)
+//                .setAnimationStyle(R.style.AnimRight)
+//                .setViewOnclickListener(this)
+//                .create();
+//        popupWindow.showAsDropDown(view, -popupWindow.getWidth(), -view.getHeight());
         popupWindow = new CommonPopupWindow.Builder(this)
-                .setView(R.layout.popup_child_view)
+                .setView(R.layout.up_down_item)
                 .setWidthAndHeight(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT)
-                .setAnimationStyle(R.style.AnimRight)
+                .setAnimationStyle(R.style.AnimDown)
                 .setViewOnclickListener(this)
+                .setOutsideTouchable(true)
                 .create();
-        popupWindow.showAsDropDown(view, -popupWindow.getWidth(), -view.getHeight());
+        popupWindow.showAsDropDown(view);
+        //得到button的左上角坐标
+//        int[] positions = new int[2];
+//        view.getLocationOnScreen(positions);
+//        popupWindow.showAtLocation(findViewById(android.R.id.content), Gravity.NO_GRAVITY, 0, positions[1] + view.getHeight());
     }
 
     @Override

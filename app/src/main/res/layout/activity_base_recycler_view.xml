@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/iv_dynamic_detail_head"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="10dip"
+                android:scaleType="fitCenter"
+                android:background="@android:color/holo_orange_light" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/tv_dynamic_detail_creator_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:textColor="@android:color/holo_green_light"
+                        android:textSize="12sp"
+                        android:text="张叔叔"/>
+
+                    <TextView
+                        android:id="@+id/iftv_down_arrow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:layout_alignParentRight="true"
+                        android:text="down"
+                        android:textColor="@color/black_deep"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_dynamic_detail_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip"
+                    android:text="我是不是你最疼爱的人，你为什么不说话
+握住是你冰冷的手，动也不动，让我好难过"/>
+
+                <!-- 不同的地方 -->
+                <ViewStub
+                    android:id="@+id/viewStub"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    />
+                <!-- 时间 、点赞、 评论 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tv_dynamic_create_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="12sp"
+                        android:text="2月28日 10:15"/>
+
+                    <View
+                        android:layout_width="0dip"
+                        android:layout_height="1dip"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/iftv_praise"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
+                        android:textSize="12sp"
+                        android:text="赞"/>
+
+                    <TextView
+                        android:id="@+id/iftv_comment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
+                        android:textSize="12sp"
+                        android:text="评论"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_digCommentBody"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:minHeight="10dip"
+            android:paddingLeft="12dip"
+            android:paddingTop="12dip"
+            android:paddingRight="12dip"
+            android:paddingBottom="8dip"
+            android:background="@android:color/holo_purple"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/praiseListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="14sp"
+                android:textColor="@android:color/holo_blue_dark"
+                android:text="点赞，点赞，点赞，点赞，点赞，点赞"
+                />
+
+            <View
+                android:id="@+id/lin_dig"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@android:color/holo_blue_dark"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="5dip"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/iftv_comment_list_comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:textSize="12sp"
+                    android:text="评论"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_comment_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/iftv_comment_list_comment"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

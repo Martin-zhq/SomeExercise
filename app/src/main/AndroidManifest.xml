@@ -111,15 +111,22 @@
         <activity
             android:name=".fragmentexercise.FragmentPersistenceActivity"
             android:configChanges="orientation|screenSize"
-            android:screenOrientation="fullSensor"></activity>
-        <activity android:name=".popupwindow.PopupWindowActivity"/>
-
-        <activity android:name=".switchtest.SwitchTestActivity">
+            android:screenOrientation="fullSensor" />
+        <activity android:name=".popupwindow.PopupWindowActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity android:name=".switchtest.SwitchTestActivity" />
+        <activity android:name=".smartrefreshlayout.SmartRefreshLayoutActivity"></activity>
+        <activity android:name=".recyclerviewexercise.BaseRecyclerViewActivity">
+
+        </activity>
+        <activity android:name=".widgetexercise.EditTextActivity">
+
         </activity>
     </application>
 
