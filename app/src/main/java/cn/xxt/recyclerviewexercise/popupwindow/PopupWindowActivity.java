@@ -2,6 +2,7 @@ package cn.xxt.recyclerviewexercise.popupwindow;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
@@ -40,12 +41,13 @@ public class PopupWindowActivity extends AppCompatActivity implements CommonPopu
                 .setViewOnclickListener(this)
                 .setOutsideTouchable(true)
                 .create();
-        popupWindow.showAsDropDown(view);
-        //得到button的左上角坐标
-//        int[] positions = new int[2];
-//        view.getLocationOnScreen(positions);
-//        popupWindow.showAtLocation(findViewById(android.R.id.content), Gravity.NO_GRAVITY, 0, positions[1] + view.getHeight());
+//        popupWindow.showAsDropDown(view);
+//        得到button的左上角坐标
+        int[] positions = new int[2];
+        view.getLocationOnScreen(positions);
+        popupWindow.showAtLocation(findViewById(android.R.id.content), Gravity.NO_GRAVITY, positions[0] - popupWindow.getWidth(), positions[1] + view.getHeight());
     }
+
 
     @Override
     public void getChildView(View view, int layoutResId) {

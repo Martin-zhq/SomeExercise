@@ -22,6 +22,7 @@ public class MyBaseRecyclerViewAdapter extends BaseQuickAdapter<Model, BaseViewH
 
     @Override
     protected void convert(BaseViewHolder helper, Model item) {
-        helper.setText(R.id.tv_test, item.getTest());
+        helper.setImageResource(R.id.iv_test, R.drawable.face1)
+                .setText(R.id.tv_test, item.getTest());
     }
 }

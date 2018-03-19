@@ -2,7 +2,7 @@ package cn.xxt.recyclerviewexercise.recyclerviewexercise;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 import java.util.ArrayList;
@@ -20,9 +20,11 @@ public class BaseRecyclerViewActivity extends AppCompatActivity {
         RecyclerView recyclerView = findViewById(R.id.rv_comment_list);
         recyclerView.setNestedScrollingEnabled(false);
 
-        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
-        layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
-        recyclerView.setLayoutManager(layoutManager);
+//        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+//        layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
+        recyclerView.addItemDecoration(new SpaceItemDecoration(30));
+        GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 3);
+        recyclerView.setLayoutManager(gridLayoutManager);
         List<Model> list = new ArrayList<>();
         for (int i = 0; i < 300; i++) {
             Model model = new Model();
