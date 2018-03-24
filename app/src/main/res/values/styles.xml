@@ -25,4 +25,8 @@
         <item name="android:windowEnterAnimation">@anim/push_scale_in</item>
         <item name="android:windowExitAnimation">@anim/push_scale_out</item>
     </style>
+
+    <declare-styleable name="MyImageView">
+        <attr name="ratio" format="float"/>
+    </declare-styleable>
 </resources>
