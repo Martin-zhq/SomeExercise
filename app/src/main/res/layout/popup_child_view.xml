@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_up_or_down"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     <LinearLayout
         android:layout_width="161dp"
-        android:layout_height="40dp"
-        android:background="@drawable/popup_gray_bg"
+        android:layout_height="80dp"
         android:orientation="horizontal">
 
         <TextView
@@ -14,14 +14,14 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="赞一个"
-            android:textColor="@color/white"
+            android:textColor="@color/black_deep"
             android:textSize="16dp" />
 
         <View
             android:layout_width="1dp"
             android:layout_height="20dp"
             android:layout_gravity="center_vertical"
-            android:background="@color/bbbbbb_2.3" />
+            android:background="@color/black_deep" />
 
         <TextView
             android:id="@+id/tv_hate"
@@ -29,7 +29,7 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="踩一下"
-            android:textColor="@color/white"
+            android:textColor="@color/black_deep"
             android:textSize="16dp" />
     </LinearLayout>
 </LinearLayout>

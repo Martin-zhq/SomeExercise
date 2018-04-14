@@ -102,7 +102,6 @@
         <activity android:name=".widgetexercise.DialogActivity" />
         <activity android:name=".widgetexercise.ToastTestActivity" />
         <activity android:name=".widgetexercise.NotificationActivity" />
-        <activity android:name=".dragview.FirstDragDropActivity" />
         <activity android:name=".fragmentexercise.FirstFragmentActivity" />
         <activity android:name=".fragmentexercise.DetailActivity" />
         <activity android:name=".fragmentexercise.FragmentCycleActivity" />
@@ -119,11 +118,25 @@
         <activity android:name=".recyclerviewexercise.BaseRecyclerViewActivity" />
         <activity android:name=".widgetexercise.EditTextActivity" />
         <activity android:name=".spinkitTest.SpinKitTestActivity" />
-        <activity android:name=".PicassoTest.CircleHeadImageActivity"></activity>
-        <activity android:name=".recyclerviewexercise.BaseRecyclerViewAdapterHelperTestActivity">
+        <activity android:name=".PicassoTest.CircleHeadImageActivity" />
+        <activity android:name=".recyclerviewexercise.BaseRecyclerViewAdapterHelperTestActivity" />
+        <activity android:name=".myimageview.MyImageViewTestActivity" />
+        <activity android:name=".popupwindow.UpOrDownPopupWindowActivity" />
+        <activity android:name=".recyclerviewexercise.PublishDynamicActivity" />
+        <activity android:name=".recyclerviewexercise.CommentListActivity" />
+        <activity android:name="cn.xxt.AndroidBlog.jichu16.CodeLayoutActivity" />
+        <activity android:name="cn.xxt.AndroidBlog.jichu17.TextViewActivity" />
+        <activity android:name="cn.xxt.AndroidBlog.jichu19.LoginTestActivity" />
+        <activity android:name="cn.xxt.AndroidBlog.jichu20.CheckActivity" />
+        <activity android:name="cn.xxt.AndroidBlog.jichu20.RadioActivity" />
+        <activity android:name="cn.xxt.AndroidBlog.jichu21.ToggleActivity" />
+        <activity android:name="cn.xxt.AndroidBlog.jichu21.SwitchActivity" />
+        <activity android:name="cn.xxt.AndroidBlog.jichu23.ZoomButtonActivity" />
+        <activity android:name="cn.xxt.AndroidBlog.jichu24.CustomViewActivity"></activity>
+        <activity android:name="cn.xxt.AndroidBlog.jichu29.TableLayoutActivity">
 
         </activity>
-        <activity android:name=".myimageview.MyImageViewTestActivity">
+        <activity android:name="cn.xxt.AndroidBlog.jichu30.FrameLayoutActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

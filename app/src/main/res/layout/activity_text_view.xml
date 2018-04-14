@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.xxt.AndroidBlog.jichu17.TextViewActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- 设置字体颜色、大小、样式 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="红色粗体倾斜的TextView"
+            android:textColor="#EA5246"
+            android:textStyle="bold|italic"
+            android:textSize="18sp" />
+
+        <!--使用阴影-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="#F9F900"
+            android:shadowDx="10.0"
+            android:shadowDy="10.0"
+            android:shadowRadius="3.0"
+            android:text="带阴影的TextView"
+            android:textColor="#4A4AFF"
+            android:textSize="30sp" />
+
+        <!--带图片的textView-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:drawableLeft="@mipmap/ic_launcher"
+            android:drawableBottom="@mipmap/ic_launcher"
+            android:drawableRight="@mipmap/ic_launcher"
+            android:text="带图片的textView" />
+
+        <!--对邮件、电话、网址增加链接-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="邮件：1457453696@qq.com\n电话：15736873291\n百度：http://www.baidu.com"
+            android:autoLink="email|phone|web"/>
+
+        <!--跑马灯效果-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:text="实现跑马灯效果的textView实现跑马灯效果的textView实现跑马灯效果的textView实现跑马灯效果的textView"/>
+    </LinearLayout>
+
+</ScrollView>

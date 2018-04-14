@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_comment_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <ImageView
+        android:id="@+id/iv_dynamic_detail_comment_head"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginRight="8dp"
+        android:background="@android:color/holo_orange_light" />
+
+    <TextView
+        android:id="@+id/tv_dynamic_detail_comment_creator_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/iv_dynamic_detail_comment_head"
+        android:layout_toLeftOf="@+id/tv_dynamic_detail_create_date"
+        android:maxLines="1"
+        android:text="张叔叔你最帅！！！"
+        android:ellipsize="end"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/tv_dynamic_detail_create_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:maxLines="1"
+        android:text="2018年2月27日 17:25"
+        android:layout_alignParentRight="true"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/tv_dynamic_detail_comment_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_toRightOf="@+id/iv_dynamic_detail_comment_head"
+        android:layout_below="@+id/tv_dynamic_detail_comment_creator_name"
+        android:textSize="12dp"
+        android:text="哈哈哈啊你牛B啊大兄弟佩服佩服小弟对你的佩服犹如滔滔江水连绵不绝" />
+
+</RelativeLayout>
