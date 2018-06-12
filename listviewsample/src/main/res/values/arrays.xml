@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="countries">
+        <item>中华人民共和国</item>
+        <item>美利坚合众国</item>
+        <item>高丽棒子</item>
+        <item>小日本</item>
+        <item>俄罗斯</item>
+        <item>墨西哥</item>
+        <item>新加坡</item>
+        <item>印度</item>
+        <item>瑞士</item>
+    </string-array>
+</resources>

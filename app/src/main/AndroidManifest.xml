@@ -132,11 +132,18 @@
         <activity android:name="cn.xxt.AndroidBlog.jichu21.ToggleActivity" />
         <activity android:name="cn.xxt.AndroidBlog.jichu21.SwitchActivity" />
         <activity android:name="cn.xxt.AndroidBlog.jichu23.ZoomButtonActivity" />
-        <activity android:name="cn.xxt.AndroidBlog.jichu24.CustomViewActivity"></activity>
-        <activity android:name="cn.xxt.AndroidBlog.jichu29.TableLayoutActivity">
+        <activity android:name="cn.xxt.AndroidBlog.jichu24.CustomViewActivity" />
+        <activity android:name="cn.xxt.AndroidBlog.jichu29.TableLayoutActivity" />
+        <activity android:name="cn.xxt.AndroidBlog.jichu30.FrameLayoutActivity" />
+        <activity android:name="cn.xxt.AndroidBlog.jichu31.AbsoluteLayoutActivity" />
+        <activity android:name="cn.xxt.AndroidBlog.jichu32.GridLayoutActivity" />
+        <activity android:name=".fragmentbackstack.BackStackActivity"></activity>
+        <activity android:name="cn.xxt.AndroidBlog.jichu35.MyButtonActivity">
 
         </activity>
-        <activity android:name="cn.xxt.AndroidBlog.jichu30.FrameLayoutActivity">
+        <activity android:name="cn.xxt.AndroidBlog.jichu36.SystemEventActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="fullSensor">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

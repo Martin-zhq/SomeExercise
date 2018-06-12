@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--android 系统 5.0以下的没有水波纹效果，只会改变背景色-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/light_gray" android:state_pressed="true"/>
+    <item android:drawable="@color/light_gray" android:state_focused="true"/>
+    <item android:drawable="@color/white"/>
+</selector>
