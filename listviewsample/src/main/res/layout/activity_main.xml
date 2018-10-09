@@ -9,7 +9,7 @@
     <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:entries="@array/countries"
+        android:entries="@array/professionals"
         android:divider="#00f"
         android:dividerHeight="2dp"
         android:headerDividersEnabled="false"/>

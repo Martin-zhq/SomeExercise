@@ -14,15 +14,20 @@
         <activity android:name=".MyListActivity" />
         <activity android:name=".CustomItemActivity" />
         <activity android:name=".CustomArrayAdapterActivity" />
-        <activity android:name=".SimpleAdapterActivity"></activity>
-        <activity android:name=".CustomBaseAdapterActivity">
+        <activity android:name=".SimpleAdapterActivity" />
+        <activity android:name=".CustomBaseAdapterActivity" />
+        <activity android:name=".UpdataListViewActivity" />
+        <activity android:name=".GridViewActivity" />
+        <activity android:name=".SpinnerActivity" />
+        <activity android:name=".AutoCompleteTextViewActivity"></activity>
+        <activity android:name=".AlertDialogActivity">
 
         </activity>
-        <activity android:name=".UpdataListViewActivity">
+        <activity android:name="cn.xxt.PageRecyclerDemo.TestPageRecyclerViewActivity">
             <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>

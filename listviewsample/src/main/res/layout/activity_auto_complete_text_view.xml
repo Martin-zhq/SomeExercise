@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AutoCompleteTextViewActivity"
+    android:orientation="vertical">
+
+    <!--定义一个自动完成文本框，指定输入一个字符后进行提示-->
+    <AutoCompleteTextView
+        android:id="@+id/actv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入联系人姓名"
+        android:completionHint="选择联系人"
+        android:completionThreshold="1" />
+
+    <!--定义一个MultiAutoCompleteTextView组件-->
+    <MultiAutoCompleteTextView
+        android:id="@+id/mactv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入联系人姓名，可多个分隔符分隔"
+        android:completionThreshold="1" />
+</LinearLayout>

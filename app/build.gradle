@@ -26,16 +26,16 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
-    compile 'com.android.support:recyclerview-v7:26.1.0'
-    compile 'com.google.code.gson:gson:2.8.0'
+    implementation 'com.android.support:recyclerview-v7:26.1.0'
+    implementation 'com.google.code.gson:gson:2.8.0'
 
-    compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.5.1'
-    compile 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.5.1'//没有使用特殊Header，可以不加这行
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.5.1'
+    implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.5.1'//没有使用特殊Header，可以不加这行
 
-    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.35'
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.35'
 
-    compile 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
 
-    compile 'com.github.ybq:Android-SpinKit:1.1.0'
-    compile 'jp.wasabeef:picasso-transformations:2.2.1'
+    implementation 'com.github.ybq:Android-SpinKit:1.1.0'
+    implementation 'jp.wasabeef:picasso-transformations:2.2.1'
 }

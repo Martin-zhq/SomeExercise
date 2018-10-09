@@ -7,6 +7,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import cn.xxt.recyclerviewexercise.R;
+import cn.xxt.util.RomUtil;
 
 /**
  * 系统配置了解
@@ -44,6 +45,10 @@ public class SystemEventActivity extends AppCompatActivity {
         status.append("screenLayout:" + cfg.screenLayout + "\n");
         status.append("smallestScreenWidthDp:" + cfg.smallestScreenWidthDp + "\n");
         status.append("uiMode:" + cfg.uiMode + "\n");
+        status.append("测试当前手机系统："+ "\n");
+        status.append("是否是锤子：" + RomUtil.isSmartisan());
+        status.append("是否是OPPO:" + RomUtil.isOppo());
+
 
         tvSystemConfiguration.setText(status);
     }
