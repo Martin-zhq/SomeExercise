@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cn.xxt.listviewsample">
 
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,11 +22,14 @@
         <activity android:name=".UpdataListViewActivity" />
         <activity android:name=".GridViewActivity" />
         <activity android:name=".SpinnerActivity" />
-        <activity android:name=".AutoCompleteTextViewActivity"></activity>
-        <activity android:name=".AlertDialogActivity">
+        <activity android:name=".AutoCompleteTextViewActivity" />
+        <activity android:name=".AlertDialogActivity" />
+        <activity android:name="cn.xxt.PageRecyclerDemo.TestPageRecyclerViewActivity" />
+        <activity android:name="cn.xxt.audiorecord.RecordTestActivity"></activity>
+        <activity android:name="cn.xxt.mediaplayer.MediaplayerActivity">
 
         </activity>
-        <activity android:name="cn.xxt.PageRecyclerDemo.TestPageRecyclerViewActivity">
+        <activity android:name="cn.xxt.handler.HandlerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

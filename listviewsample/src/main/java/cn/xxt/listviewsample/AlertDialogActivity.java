@@ -8,6 +8,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
+/**
+ * 
+ * @author zhq
+ * @date 2018/10/9 下午3:41
+ */
 public class AlertDialogActivity extends AppCompatActivity {
 
     @Override
