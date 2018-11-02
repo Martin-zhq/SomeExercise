@@ -25,7 +25,7 @@
         <activity android:name=".AutoCompleteTextViewActivity" />
         <activity android:name=".AlertDialogActivity" />
         <activity android:name="cn.xxt.PageRecyclerDemo.TestPageRecyclerViewActivity" />
-        <activity android:name="cn.xxt.audiorecord.RecordTestActivity"></activity>
+        <activity android:name="cn.xxt.audiorecord.RecordTestActivity"/>
         <activity android:name="cn.xxt.mediaplayer.MediaplayerActivity">
 
         </activity>
