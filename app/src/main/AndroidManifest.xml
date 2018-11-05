@@ -137,13 +137,19 @@
         <activity android:name="cn.xxt.AndroidBlog.jichu30.FrameLayoutActivity" />
         <activity android:name="cn.xxt.AndroidBlog.jichu31.AbsoluteLayoutActivity" />
         <activity android:name="cn.xxt.AndroidBlog.jichu32.GridLayoutActivity" />
-        <activity android:name=".fragmentbackstack.BackStackActivity"></activity>
-        <activity android:name="cn.xxt.AndroidBlog.jichu35.MyButtonActivity">
-
-        </activity>
-        <activity android:name="cn.xxt.AndroidBlog.jichu36.SystemEventActivity"
+        <activity android:name=".fragmentbackstack.BackStackActivity" />
+        <activity android:name="cn.xxt.AndroidBlog.jichu35.MyButtonActivity" />
+        <activity
+            android:name="cn.xxt.AndroidBlog.jichu36.SystemEventActivity"
             android:configChanges="orientation|screenSize"
-            android:screenOrientation="fullSensor">
+            android:screenOrientation="fullSensor" />
+        <activity android:name=".widgetexercise.adapterviewfilpper.AdapterViewFlipperActivity" />
+        <activity android:name=".widgetexercise.stackview.StackViewActivity" />
+        <activity android:name=".widgetexercise.progress.ProgressActivity" />
+        <activity android:name=".widgetexercise.progress.CustomProgressbarActivity" />
+        <activity android:name=".widgetexercise.viewswitcher.ViewSwitcherActivity"/>
+        <activity android:name=".widgetexercise.viewswitcher.ImageSwitcherActivity"/>
+        <activity android:name=".widgetexercise.viewswitcher.TextSwitcherActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
