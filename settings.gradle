@@ -1,1 +1,1 @@
-include ':app', ':listviewsample', ':webframework'
+include ':app', ':listviewsample', ':webframework', ':customwidget'
