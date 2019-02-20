@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/gl_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="selector age"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <cn.xxt.customwidget.customselector.AgeSelector
+        android:id="@+id/selector_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:img="@mipmap/teenage"
+        app:indicator="@drawable/age_selector_bg"
+        app:layout_constraintBottom_toTopOf="@+id/gl_center"
+        app:layout_constraintDimensionRatio="122:150"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent="0.338"
+        app:mark="teenage"
+        app:text="teenage"
+        app:text_color="#ff222222"
+        app:text_size="16" />
+
+    <cn.xxt.customwidget.customselector.AgeSelector
+        android:id="@+id/selector_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:img="@mipmap/man"
+        app:indicator="@drawable/age_selector_bg"
+        app:layout_constraintDimensionRatio="122:150"
+        app:layout_constraintEnd_toStartOf="@+id/selector_3"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gl_center"
+        app:layout_constraintWidth_percent=".338"
+        app:mark="man"
+        app:text="man"
+        app:text_color="#ff222222"
+        app:text_size="16"/>
+
+    <cn.xxt.customwidget.customselector.AgeSelector
+        android:id="@+id/selector_3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:img="@mipmap/old_man"
+        app:indicator="@drawable/age_selector_bg"
+        app:layout_constraintDimensionRatio="122:150"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@id/selector_2"
+        app:layout_constraintTop_toBottomOf="@id/gl_center"
+        app:layout_constraintWidth_percent=".338"
+        app:mark="oldMan"
+        app:text="oldMan"
+        app:text_color="#ff222222"
+        app:text_size="16"/>
+
+</android.support.constraint.ConstraintLayout>
