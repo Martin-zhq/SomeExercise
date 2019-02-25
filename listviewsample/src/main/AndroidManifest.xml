@@ -26,15 +26,20 @@
         <activity android:name=".AlertDialogActivity" />
         <activity android:name="cn.xxt.PageRecyclerDemo.TestPageRecyclerViewActivity" />
         <activity android:name="cn.xxt.audiorecord.RecordTestActivity" />
-        <activity android:name="cn.xxt.mediaplayer.MediaplayerActivity"></activity>
+        <activity android:name="cn.xxt.mediaplayer.MediaplayerActivity" />
         <activity android:name="cn.xxt.handler.HandlerActivity">
+
+        </activity>
+        <activity android:name="cn.xxt.constraintlayout.RelativePositionActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="cn.xxt.constraintlayout.RelativePositionActivity"></activity>
+        <activity android:name="cn.xxt.dialogtest.DialogTestActivity">
+
+        </activity>
     </application>
 
 </manifest>
