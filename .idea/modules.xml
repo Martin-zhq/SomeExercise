@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RecyclerViewExercise.iml" filepath="$PROJECT_DIR$/RecyclerViewExercise.iml" />
       <module fileurl="file://D:/AndroidStudioProjects/someexercise/RecyclerViewExercise.iml" filepath="D:/AndroidStudioProjects/someexercise/RecyclerViewExercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animexercise/animexercise.iml" filepath="$PROJECT_DIR$/animexercise/animexercise.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://D:/AndroidStudioProjects/someexercise/app/app.iml" filepath="D:/AndroidStudioProjects/someexercise/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/customwidget/customwidget.iml" filepath="$PROJECT_DIR$/customwidget/customwidget.iml" />

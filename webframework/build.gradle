@@ -4,7 +4,6 @@ android {
     compileSdkVersion 27
 
 
-
     defaultConfig {
         applicationId "cn.xxt.webframework"
         minSdkVersion 14

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnimMainActivity">
+
+    <Button
+        android:id="@+id/btn_scale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/btn_rotate"
+        android:layout_marginTop="64dp"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        android:text="scale"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_rotate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/btn_scale"
+        app:layout_constraintLeft_toRightOf="@id/btn_scale"
+        app:layout_constraintRight_toLeftOf="@id/btn_translate"
+        android:text="rotate"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_translate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/btn_scale"
+        app:layout_constraintLeft_toRightOf="@id/btn_rotate"
+        app:layout_constraintRight_toLeftOf="@id/btn_alpha"
+        android:text="translate"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_alpha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/btn_scale"
+        app:layout_constraintLeft_toRightOf="@id/btn_translate"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="alpha"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@+id/btn_scale"
+        app:layout_constraintRight_toRightOf="@id/btn_scale"
+        app:layout_constraintTop_toBottomOf="@id/btn_scale"
+        android:text="set"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/tv_anim_test"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:text="Hello World!"
+        android:gravity="center"
+        android:background="#ff00ff"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="200dp"/>
+
+</android.support.constraint.ConstraintLayout>

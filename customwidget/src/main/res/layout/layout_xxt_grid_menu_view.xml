@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="84dp" />
+
+        <cn.xxt.customwidget.gridviewwithindicator.indicator.UIndicator
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:layout_below="@id/view_pager"
+            android:layout_centerHorizontal="true"
+            app:rect_rect_corner="10dp"
+            app:rect_rect_itemWidth="21dp"
+            app:rect_rect_itemHeight="3dp"
+            app:normal_color="#999999"
+            app:selected_color="#27c675"
+            app:spacing="10dp"
+            app:style="rect_rect" />
+    </RelativeLayout>
+</RelativeLayout>
+

@@ -38,7 +38,7 @@
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:hint="   可以说明早退原因"
+        android:hint="可以说明早退原因"
         android:textColorHint="@android:color/holo_blue_light"
         android:background="@android:color/white"/>
 

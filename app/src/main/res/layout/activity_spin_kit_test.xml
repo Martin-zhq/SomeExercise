@@ -6,54 +6,54 @@
     tools:context="cn.xxt.recyclerviewexercise.spinkitTest.SpinKitTestActivity"
     android:orientation="vertical">
 
-    <com.github.ybq.android.spinkit.SpinKitView
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/spin_kit1"
-        style="@style/SpinKitView.Large.Circle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        app:SpinKit_Color="@color/colorAccent" />
-    <com.github.ybq.android.spinkit.SpinKitView
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/spin_kit2"
-        style="@style/SpinKitView.RotatingPlane"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        app:SpinKit_Color="@color/colorAccent" />
+    <!--<com.github.ybq.android.spinkit.SpinKitView-->
+        <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/spin_kit1"-->
+        <!--style="@style/SpinKitView.Large.Circle"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--app:SpinKit_Color="@color/colorAccent" />-->
+    <!--<com.github.ybq.android.spinkit.SpinKitView-->
+        <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/spin_kit2"-->
+        <!--style="@style/SpinKitView.RotatingPlane"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--app:SpinKit_Color="@color/colorAccent" />-->
 
-    <com.github.ybq.android.spinkit.SpinKitView
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/spin_kit3"
-        style="@style/SpinKitView.DoubleBounce"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        app:SpinKit_Color="@color/colorAccent" />
-    <com.github.ybq.android.spinkit.SpinKitView
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/spin_kit4"
-        style="@style/SpinKitView.Wave"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        app:SpinKit_Color="@color/colorAccent" />
-    <com.github.ybq.android.spinkit.SpinKitView
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/spin_kit5"
-        style="@style/SpinKitView.WanderingCubes"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        app:SpinKit_Color="@color/colorAccent" />
-    <com.github.ybq.android.spinkit.SpinKitView
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/spin_kit6"
-        style="@style/SpinKitView.Large.Pulse"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        app:SpinKit_Color="@color/colorAccent" />
+    <!--<com.github.ybq.android.spinkit.SpinKitView-->
+        <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/spin_kit3"-->
+        <!--style="@style/SpinKitView.DoubleBounce"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--app:SpinKit_Color="@color/colorAccent" />-->
+    <!--<com.github.ybq.android.spinkit.SpinKitView-->
+        <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/spin_kit4"-->
+        <!--style="@style/SpinKitView.Wave"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--app:SpinKit_Color="@color/colorAccent" />-->
+    <!--<com.github.ybq.android.spinkit.SpinKitView-->
+        <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/spin_kit5"-->
+        <!--style="@style/SpinKitView.WanderingCubes"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--app:SpinKit_Color="@color/colorAccent" />-->
+    <!--<com.github.ybq.android.spinkit.SpinKitView-->
+        <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/spin_kit6"-->
+        <!--style="@style/SpinKitView.Large.Pulse"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--app:SpinKit_Color="@color/colorAccent" />-->
 
 </LinearLayout>

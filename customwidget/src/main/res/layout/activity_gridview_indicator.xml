@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@android:color/holo_orange_light"/>
+
+    <cn.xxt.customwidget.gridviewwithindicator.indicator.UIndicator
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_below="@id/view_pager"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        app:rect_rect_corner="10dp"
+        app:normal_color="#999999"
+        app:selected_color="#27c675"
+        app:spacing="10dp"
+        app:style="rect_rect" />
+
+    <cn.xxt.customwidget.gridviewwithindicator.XXTGridMenuView
+        android:id="@+id/xxtgrid"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/indicator"
+        app:root_view_background="@drawable/bg_xxt_grid_menu_8_radius"
+        app:root_view_elevation="3dp"
+        app:root_view_margin_left="16dp"
+        app:root_view_margin_right="16dp"
+        app:root_view_margin_top="18dp"
+        app:root_view_margin_bottom="18dp"
+        app:view_pager_height="84dp"
+        app:view_pager_margin_bottom="1dp"
+        app:view_pager_margin_top="16dp"
+        app:indicator_height="6dp"
+        app:indicator_margin_bottom="15dp" />
+
+</RelativeLayout>
